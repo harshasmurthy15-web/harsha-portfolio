@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Harsha S Murthy | Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor"></div>
+    <div class="cursor-ring"></div>
+
+
+    <!-- PARTICLE BACKGROUND -->
+    <canvas id="particles"></canvas>
+
+
+    <!-- STARTUP SCREEN -->
+    <div id="loader">
+
+        <div class="loader-terminal">
+
+            <div class="loader-top">
+                <span></span>
+                <span></span>
+                <span></span>
+                <p>harsha@portfolio</p>
+            </div>
+
+            <div class="loader-content">
+
+                <p><span class="green">harsha@portfolio</span>:~$ ./start.sh</p>
+
+                <p id="loadingText"></p>
+
+                <div class="loading-bar">
+                    <div id="loadingProgress"></div>
+                </div>
+
+                <p class="loader-status">
+                    Portfolio initializing...
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                Harsha<span>.</span>
+            </a>
+
+            <div class="nav-links">
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#journey">Journey</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <button id="menuButton" class="menu-button">
+                ☰
+            </button>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-glow glow-one"></div>
+            <div class="hero-glow glow-two"></div>
+
+            <div class="hero-container">
+
+                <div class="hero-content reveal">
+
+                    <div class="status">
+                        <span></span>
+                        Available for learning & opportunities
+                    </div>
+
+                    <p class="terminal-label">
+                        <span>●</span> harsha@portfolio:~$
+                    </p>
+
+                    <h1>
+                        Hi, I'm
+                        <span class="gradient-text">
+                            Harsha S Murthy.
+                        </span>
+                    </h1>
+
+                    <h2>
+                        CSE Student <span>×</span> Developer
+                    </h2>
+
+                    <p class="hero-description">
+
+                        I build projects, solve problems and
+                        continuously explore software development,
+                        full-stack technologies and modern developer tools.
+
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="btn primary-btn">
+                            Explore My Work
+                            <span>→</span>
+                        </a>
+
+                        <a href="https://github.com/harshasmurthy15"
+                           target="_blank"
+                           class="btn secondary-btn">
+                            GitHub ↗
+                        </a>
+
+                    </div>
+
+                    <div class="social-row">
+
+                        <a href="https://www.linkedin.com/in/harsha-s-murthy-15h10ar20sh06as"
+                           target="_blank">
+                            LinkedIn
+                        </a>
+
+                        <a href="https://leetcode.com/u/8NH5eBwW3o/"
+                           target="_blank">
+                            LeetCode
+                        </a>
+
+                        <a href="https://www.hackerrank.com/profile/harshasmurthy15"
+                           target="_blank">
+                            HackerRank
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TERMINAL -->
+                <div class="developer-terminal tilt reveal">
+
+                    <div class="terminal-header">
+
+                        <div class="terminal-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <span>developer.js</span>
+
+                    </div>
+
+                    <div class="terminal-body">
+
+                        <p>
+                            <span class="purple">const</span>
+                            developer =
+                            <span class="yellow">{</span>
+                        </p>
+
+                        <p class="indent">
+                            name:
+                            <span class="green">
+                                "Harsha S Murthy"
+                            </span>,
+                        </p>
+
+                        <p class="indent">
+                            education:
+                            <span class="green">
+                                "B.Tech CSE"
+                            </span>,
+                        </p>
+
+                        <p class="indent">
+                            semester:
+                            <span class="number">
+                                3
+                            </span>,
+                        </p>
+
+                        <p class="indent">
+                            languages:
+                            <span class="green">
+                                ["C", "C++", "Python", "Java"]
+                            </span>,
+                        </p>
+
+                        <p class="indent">
+                            interests:
+                            <span class="green">
+                                ["Web", "DSA", "IoT"]
+                            </span>,
+                        </p>
+
+                        <p class="indent">
+                            learning:
+                            <span class="green">
+                                "Full-Stack Development"
+                            </span>
+                        </p>
+
+                        <p>
+                            <span class="yellow">}</span>;
+                        </p>
+
+                        <br>
+
+                        <p>
+                            <span class="purple">function</span>
+                            <span class="blue">
+                                build()
+                            </span>
+                            <span class="yellow">{</span>
+                        </p>
+
+                        <p class="indent">
+                            <span class="purple">return</span>
+                            <span class="green">
+                                "Learn. Build. Improve."
+                            </span>;
+                        </p>
+
+                        <p>
+                            <span class="yellow">}</span>
+                        </p>
+
+                        <p class="cursor-line">
+                            ▌
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator">
+                Scroll to explore
+                <span>↓</span>
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span>01 — ABOUT</span>
+
+                    <h2>
+                        More than just
+                        <em>code.</em>
+                    </h2>
+
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-text reveal">
+
+                        <p class="large-text">
+                            I'm Harsha S Murthy, a 3rd semester
+                            Computer Science and Engineering student
+                            interested in building technology and
+                            learning how things work.
+                        </p>
+
+                        <p>
+                            My development journey is focused on
+                            strengthening programming fundamentals,
+                            problem solving, web development and
+                            practical project building.
+                        </p>
+
+                        <p>
+                            I enjoy turning ideas into working
+                            applications and using every project
+                            as an opportunity to learn something new.
+                        </p>
+
+                    </div>
+
+
+                    <div class="about-card tilt reveal">
+
+                        <div class="card-number">
+                            01
+                        </div>
+
+                        <div class="info-line">
+                            <span>Education</span>
+                            <strong>B.Tech CSE</strong>
+                        </div>
+
+                        <div class="info-line">
+                            <span>Current Level</span>
+                            <strong>3rd Semester</strong>
+                        </div>
+
+                        <div class="info-line">
+                            <span>Focus</span>
+                            <strong>Software Development</strong>
+                        </div>
+
+                        <div class="info-line">
+                            <span>Location</span>
+                            <strong>India</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION -->
+        <section class="section dark-section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span>02 — EDUCATION</span>
+
+                    <h2>
+                        Building the
+                        <em>foundation.</em>
+                    </h2>
+
+                </div>
+
+                <div class="education-card reveal">
+
+                    <div class="education-icon">
+                        🎓
+                    </div>
+
+                    <div>
+
+                        <p class="small-label">
+                            CURRENTLY PURSUING
+                        </p>
+
+                        <h3>
+                            Bachelor of Technology
+                        </h3>
+
+                        <h4>
+                            Computer Science & Engineering
+                        </h4>
+
+                        <p>
+                            3rd Semester
+                        </p>
+
+                    </div>
+
+                    <div class="education-arrow">
+                        →
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span>03 — PROJECTS</span>
+
+                    <h2>
+                        Things I've
+                        <em>built.</em>
+                    </h2>
+
+                    <p>
+                        A collection of projects and ideas
+                        developed while learning and experimenting.
+                    </p>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <article class="project-card tilt reveal">
+
+                        <div class="project-top">
+                            <span class="project-number">01</span>
+                            <span class="project-icon">↗</span>
+                        </div>
+
+                        <h3>
+                            Romigo
+                        </h3>
+
+                        <p>
+                            A travel transportation platform concept
+                            designed for destination sightseeing,
+                            round trips and local travel after reaching
+                            a destination.
+                        </p>
+
+                        <div class="tags">
+                            <span>Web</span>
+                            <span>Travel</span>
+                            <span>Full-Stack</span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card tilt reveal">
+
+                        <div class="project-top">
+                            <span class="project-number">02</span>
+                            <span class="project-icon">↗</span>
+                        </div>
+
+                        <h3>
+                            Hand Gesture Light Control
+                        </h3>
+
+                        <p>
+                            An Arduino-based IoT project concept
+                            for controlling lights and brightness
+                            through hand gestures.
+                        </p>
+
+                        <div class="tags">
+                            <span>Arduino</span>
+                            <span>IoT</span>
+                            <span>Hardware</span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card tilt reveal">
+
+                        <div class="project-top">
+                            <span class="project-number">03</span>
+                            <span class="project-icon">↗</span>
+                        </div>
+
+                        <h3>
+                            Electricity Bill System
+                        </h3>
+
+                        <p>
+                            A C++ console application for managing
+                            monthly electricity bills for multiple
+                            consumers using billing slabs and surcharge.
+                        </p>
+
+                        <div class="tags">
+                            <span>C++</span>
+                            <span>Logic</span>
+                            <span>Console</span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card tilt reveal">
+
+                        <div class="project-top">
+                            <span class="project-number">04</span>
+                            <span class="project-icon">↗</span>
+                        </div>
+
+                        <h3>
+                            Coding Practice
+                        </h3>
+
+                        <p>
+                            Regular problem-solving practice using
+                            coding platforms to improve algorithms,
+                            data structures and programming skills.
+                        </p>
+
+                        <div class="tags">
+                            <span>DSA</span>
+                            <span>LeetCode</span>
+                            <span>HackerRank</span>
+                        </div>
+
+                        <a href="https://github.com/harshasmurthy15"
+                           target="_blank"
+                           class="card-link">
+                            View GitHub →
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section id="skills" class="section dark-section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span>04 — SKILLS</span>
+
+                    <h2>
+                        My developer
+                        <em>toolkit.</em>
+                    </h2>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+
+                    <div class="skill-box reveal">
+
+                        <div class="skill-icon">
+                            &lt;/&gt;
+                        </div>
+
+                        <h3>
+                            Programming
+                        </h3>
+
+                        <p>
+                            C • C++ • Python • Java
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-box reveal">
+
+                        <div class="skill-icon">
+                            ◈
+                        </div>
+
+                        <h3>
+                            Web Development
+                        </h3>
+
+                        <p>
+                            HTML • CSS • JavaScript • Full-Stack
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-box reveal">
+
+                        <div class="skill-icon">
+                            ⚙
+                        </div>
+
+                        <h3>
+                            Developer Tools
+                        </h3>
+
+                        <p>
+                            VS Code • Git • GitHub
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-box reveal">
+
+                        <div class="skill-icon">
+                            ◎
+                        </div>
+
+                        <h3>
+                            Problem Solving
+                        </h3>
+
+                        <p>
+                            DSA • Algorithms • LeetCode • HackerRank
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-box reveal">
+
+                        <div class="skill-icon">
+                            ◉
+                        </div>
+
+                        <h3>
+                            Database
+                        </h3>
+
+                        <p>
+                            MySQL • DBMS Fundamentals
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-box reveal">
+
+                        <div class="skill-icon">
+                            ⚡
+                        </div>
+
+                        <h3>
+                            Hardware & IoT
+                        </h3>
+
+                        <p>
+                            Arduino • Electronics • IoT Projects
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACHIEVEMENTS -->
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span>05 — ACHIEVEMENTS</span>
+
+                    <h2>
+                        Progress is the
+                        <em>achievement.</em>
+                    </h2>
+
+                </div>
+
+                <div class="coming-card reveal">
+
+                    <div class="coming-icon">
+                        🏆
+                    </div>
+
+                    <h3>
+                        More milestones coming soon.
+                    </h3>
+
+                    <p>
+                        Currently focused on building projects,
+                        improving coding skills and creating a
+                        strong foundation for future opportunities.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CERTIFICATIONS -->
+        <section class="section dark-section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span>06 — CERTIFICATIONS</span>
+
+                    <h2>
+                        Learning &
+                        <em>certification.</em>
+                    </h2>
+
+                </div>
+
+                <div class="coming-card reveal">
+
+                    <div class="coming-icon">
+                        📜
+                    </div>
+
+                    <h3>
+                        Certifications coming soon.
+                    </h3>
+
+                    <p>
+                        This section will grow as I complete
+                        courses, certifications and technical
+                        learning programs.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- JOURNEY -->
+        <section id="journey" class="section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span>07 — JOURNEY</span>
+
+                    <h2>
+                        Learning by
+                        <em>building.</em>
+                    </h2>
+
+                </div>
+
+
+                <div class="timeline">
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-number">
+                            01
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span>
+                                FOUNDATION
+                            </span>
+
+                            <h3>
+                                Programming Fundamentals
+                            </h3>
+
+                            <p>
+                                Building a strong foundation in
+                                programming, logic and problem solving.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-number">
+                            02
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span>
+                                DEVELOPMENT
+                            </span>
+
+                            <h3>
+                                Git & GitHub
+                            </h3>
+
+                            <p>
+                                Learning version control,
+                                repositories, commits and
+                                developer workflows.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-number">
+                            03
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span>
+                                PROBLEM SOLVING
+                            </span>
+
+                            <h3>
+                                DSA Practice
+                            </h3>
+
+                            <p>
+                                Solving coding problems and
+                                understanding algorithms and
+                                data structures.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-number">
+                            04
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span>
+                                PROJECTS
+                            </span>
+
+                            <h3>
+                                Building Real Applications
+                            </h3>
+
+                            <p>
+                                Applying knowledge through
+                                practical software and hardware projects.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-number">
+                            05
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span>
+                                NEXT
+                            </span>
+
+                            <h3>
+                                Full-Stack Development
+                            </h3>
+
+                            <p>
+                                Continuing to explore frontend,
+                                backend and complete application development.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CODING PROFILES -->
+        <section class="section dark-section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span>08 — PROFILES</span>
+
+                    <h2>
+                        Find me
+                        <em>online.</em>
+                    </h2>
+
+                </div>
+
+
+                <div class="profiles-grid">
+
+
+                    <a class="profile-card reveal"
+                       href="https://github.com/harshasmurthy15"
+                       target="_blank">
+
+                        <span class="profile-icon">
+                            GH
+                        </span>
+
+                        <div>
+                            <small>CODE</small>
+                            <h3>GitHub</h3>
+                        </div>
+
+                        <span>↗</span>
+
+                    </a>
+
+
+                    <a class="profile-card reveal"
+                       href="https://leetcode.com/u/8NH5eBwW3o/"
+                       target="_blank">
+
+                        <span class="profile-icon">
+                            LC
+                        </span>
+
+                        <div>
+                            <small>PROBLEM SOLVING</small>
+                            <h3>LeetCode</h3>
+                        </div>
+
+                        <span>↗</span>
+
+                    </a>
+
+
+                    <a class="profile-card reveal"
+                       href="https://www.hackerrank.com/profile/harshasmurthy15"
+                       target="_blank">
+
+                        <span class="profile-icon">
+                            HR
+                        </span>
+
+                        <div>
+                            <small>CODING</small>
+                            <h3>HackerRank</h3>
+                        </div>
+
+                        <span>↗</span>
+
+                    </a>
+
+
+                    <a class="profile-card reveal"
+                       href="https://www.linkedin.com/in/harsha-s-murthy-15h10ar20sh06as"
+                       target="_blank">
+
+                        <span class="profile-icon">
+                            IN
+                        </span>
+
+                        <div>
+                            <small>PROFESSIONAL</small>
+                            <h3>LinkedIn</h3>
+                        </div>
+
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section id="contact" class="section contact-section">
+
+            <div class="contact-glow"></div>
+
+            <div class="container contact-container reveal">
+
+                <span class="section-tag">
+                    09 — CONTACT
+                </span>
+
+                <h2>
+                    Let's build something
+                    <em>interesting.</em>
+                </h2>
+
+                <p>
+                    Whether it's a project, collaboration,
+                    opportunity or simply a conversation about
+                    technology, feel free to reach out.
+                </p>
+
+                <div class="contact-buttons">
+
+                    <a href="mailto:harshasmurthy15@gmail.com"
+                       class="btn primary-btn">
+                        Email Me →
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/harsha-s-murthy-15h10ar20sh06as"
+                       target="_blank"
+                       class="btn secondary-btn">
+                        LinkedIn ↗
+                    </a>
+
+                </div>
+
+                <p class="email">
+                    harshasmurthy15@gmail.com
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-inner">
+
+            <div>
+                <strong>Harsha<span>.</span></strong>
+                <p>
+                    B.Tech CSE • 3rd Semester
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    Designed & built with curiosity.
+                </p>
+
+                <p>
+                    © 2026 Harsha S Murthy
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
